@@ -1,0 +1,47 @@
+body {
+    font-family: 'Pretendard', sans-serif;
+    color: #333;
+}
+
+.main_product {
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-top: 96px;
+    padding: 0 15px;
+}
+
+.main_product .title h2 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.main_product .title p {
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 16px;
+}
+
+.inner {
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.inner .itm {
+    flex: 1;
+}
+
+.inner .txt_box strong {
+    display: block;
+    margin-top: 16px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.inner .txt_box p {
+    margin-top: 8px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+}
